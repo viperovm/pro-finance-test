@@ -1,0 +1,143 @@
+@import "theme";
+
+.title-wrapper {
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+
+  .title-button {
+    height: 40px;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    color: $white-color;
+    background-color: $dark-blue-color;
+
+    & img {
+      margin-right: 5px;
+    }
+
+  }
+
+}
+
+.filter-wrapper {
+
+  margin-top: 30px;
+
+  .filter-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+
+  .filter-buttons {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+
+  .filter-button {
+    height: 50px;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    color: $white-color;
+    background-color: $blue-color;
+
+  }
+
+  .export-button {
+    height: 50px;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    color: $white-color;
+    background-color: $dark-blue-color;
+
+    & img {
+      margin-right: 5px;
+    }
+
+  }
+
+}
+
+.data-wrapper {
+  margin-top: 30px;
+  padding: 15px 0;
+  width: 100%;
+  border-top: 1px solid $light-border-color;
+  border-bottom: 1px solid $light-border-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 300;
+  font-size: 16px;
+  color: $black-color;
+
+  .download-buttons {
+    display: flex;
+    margin-left: 15px;
+    gap: 30px;
+
+    .button {
+      display: flex;
+      cursor: pointer;
+    }
+
+    img {
+      margin: 0 10px 0 0;
+    }
+  }
+
+  .clear-button {
+    padding: 0 30px;
+    border-left: 1px solid $light-border-color;
+
+    .button {
+      display: flex;
+      cursor: pointer;
+    }
+
+    img {
+      margin-left: 10px;
+    }
+  }
+
+}
+
+.table-wrapper {
+  margin-top: 30px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: $white-color;
+  padding: 20px;
+  height: 700px;
+  overflow-y: auto;
+  overflow-x: scroll;
+}
+
+.empty-table {
+  width: 100%;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+

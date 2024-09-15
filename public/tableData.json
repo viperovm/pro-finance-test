@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "code": "2037618545901",
+    "item": "Одежда",
+    "art": "Кардиган",
+    "size": "50",
+    "available": 0,
+    "goods_on_the_way": 40,
+    "total_goods": 40
+  },
+  {
+    "id": 2,
+    "code": "2037618545901",
+    "item": "Одежда",
+    "art": "Кардиган",
+    "size": "55",
+    "available": 10,
+    "goods_on_the_way": 30,
+    "total_goods": 40
+  },
+  {
+    "id": 3,
+    "code": "2037618545901",
+    "item": "Одежда",
+    "art": "Кардиган",
+    "size": "60",
+    "available": 5,
+    "goods_on_the_way": 5,
+    "total_goods": 10
+  },
+  {
+    "id": 4,
+    "code": "2037618545902",
+    "item": "Одежда",
+    "art": "Джинсы",
+    "size": "36",
+    "available": 15,
+    "goods_on_the_way": 5,
+    "total_goods": 20
+  },
+  {
+    "id": 5,
+    "code": "2037618545902",
+    "item": "Одежда",
+    "art": "Джинсы",
+    "size": "44",
+    "available": 32,
+    "goods_on_the_way": 7,
+    "total_goods": 39
+  },
+  {
+    "id": 6,
+    "code": "2037618545903",
+    "item": "Аксессуары",
+    "art": "Сумка",
+    "size": "0",
+    "available": 5,
+    "goods_on_the_way": 7,
+    "total_goods": 12
+  },
+  {
+    "id": 7,
+    "code": "2037618545904",
+    "item": "Аксессуары",
+    "art": "Часы",
+    "size": "0",
+    "available": 18,
+    "goods_on_the_way": 3,
+    "total_goods": 21
+  },
+  {
+    "id": 8,
+    "code": "2037618545905",
+    "item": "Белье",
+    "art": "Майка",
+    "size": "S",
+    "available": 20,
+    "goods_on_the_way": 30,
+    "total_goods": 50
+  },
+  {
+    "id": 9,
+    "code": "2037618545905",
+    "item": "Белье",
+    "art": "Майка",
+    "size": "M",
+    "available": 20,
+    "goods_on_the_way": 30,
+    "total_goods": 50
+  },
+  {
+    "id": 10,
+    "code": "2037618545905",
+    "item": "Белье",
+    "art": "Майка",
+    "size": "L",
+    "available": 20,
+    "goods_on_the_way": 30,
+    "total_goods": 50
+  },
+  {
+    "id": 11,
+    "code": "2037618545905",
+    "item": "Белье",
+    "art": "Майка",
+    "size": "XL",
+    "available": 20,
+    "goods_on_the_way": 30,
+    "total_goods": 50
+  },
+  {
+    "id": 12,
+    "code": "2037618545906",
+    "item": "Обувь",
+    "art": "Кеды",
+    "size": "30",
+    "available": 10,
+    "goods_on_the_way": 10,
+    "total_goods": 20
+  },
+  {
+    "id": 13,
+    "code": "2037618545906",
+    "item": "Обувь",
+    "art": "Кеды",
+    "size": "32",
+    "available": 7,
+    "goods_on_the_way": 16,
+    "total_goods": 23
+  },
+  {
+    "id": 14,
+    "code": "2037618545906",
+    "item": "Обувь",
+    "art": "Кеды",
+    "size": "34",
+    "available": 8,
+    "goods_on_the_way": 13,
+    "total_goods": 21
+  },
+  {
+    "id": 15,
+    "code": "2037618545907",
+    "item": "Обувь",
+    "art": "Туфли",
+    "size": "30",
+    "available": 32,
+    "goods_on_the_way": 14,
+    "total_goods": 46
+  },
+  {
+    "id": 16,
+    "code": "2037618545907",
+    "item": "Обувь",
+    "art": "Туфли",
+    "size": "32",
+    "available": 65,
+    "goods_on_the_way": 32,
+    "total_goods": 97
+  },
+  {
+    "id": 17,
+    "code": "2037618545907",
+    "item": "Обувь",
+    "art": "Туфли",
+    "size": "34",
+    "available": 2,
+    "goods_on_the_way": 135,
+    "total_goods": 137
+  }
+]

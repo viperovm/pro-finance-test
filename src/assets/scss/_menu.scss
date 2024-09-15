@@ -1,0 +1,169 @@
+@import "theme";
+
+.menu-wrapper {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.menu-body {
+  border-radius: 25px;
+  min-height: 360px;
+  background-color: $black-color;
+  display: flex;
+  flex-direction: column;
+
+  .main-menu-header-wrapper {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main-menu-header {
+    font-size: 24px;
+    font-weight: 500;
+    color: $white-color;
+    display: flex;
+    cursor: pointer;
+
+    div {
+      padding: 2px 4px;
+    }
+
+    .main-menu-header-blue {
+      margin-right: 5px;
+      background-color: $blue-color;
+      border-radius: 6px;
+    }
+  }
+
+  .main-menu-header-button {
+    background-color: $dark-blue-color-1;
+    height: 30px;
+    border-radius: 14px;
+    padding: 0 10px;
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $menu-grey-color;
+    cursor: pointer;
+  }
+
+  .main-menu-items {
+    margin: 0 12px 12px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .main-menu-item {
+    background-color: $dark-blue-color;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    height: 70px;
+    font-weight: 400;
+    font-size: 20px;
+    color: $white-color;
+    position: relative;
+    cursor: pointer;
+
+    .icon {
+      margin-right: 15px;
+    }
+  }
+
+  .secondary-menu-wrapper {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .secondary-menu-header-section {
+      font-weight: 400;
+      font-size: 16px;
+      color: $white-color;
+    }
+
+    .secondary-menu-contact-section {
+
+      display: flex;
+      gap: 20px;
+      white-space: nowrap;
+      flex-wrap: wrap;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        width: calc(50% - 10px);
+
+        &:last-child {
+          width: 100%;
+        }
+
+        &:not(:last-child) {
+          .value {
+            cursor: pointer;
+          }
+        }
+      }
+
+      .name {
+        font-weight: 400;
+        font-size: 12px;
+        color: $menu-grey-color;
+      }
+
+      .value {
+        font-weight: 400;
+        font-size: 16px;
+        color: $white-color;
+      }
+    }
+
+    .secondary-menu-links-section {
+      display: flex;
+      flex-direction: column;
+
+      .secondary-menu-link {
+        height: 35px;
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        font-size: 14px;
+        color: $menu-grey-color;
+        cursor: pointer;
+
+        &:not(:last-child) {
+          border-bottom: 1px solid $menu-border-color;
+        }
+      }
+
+    }
+
+  }
+
+}
+
+.contact-body {
+  border-radius: 25px;
+  height: 80px;
+  background-color: $blue-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 20px;
+  color: $white-color;
+  cursor: pointer;
+
+  img {
+    margin-right: 5px;
+  }
+}
