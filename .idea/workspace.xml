@@ -11,14 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="672c36b7-4a40-4f41-ab67-558ae4132d1f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/SelectInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/SelectInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/inputs/TextInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inputs/TextInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/dataReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/dataReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +97,13 @@
       <option name="presentableId" value="Default" />
       <updated>1726065548870</updated>
       <workItem from="1726065550131" duration="1179000" />
-      <workItem from="1726066736046" duration="112014000" />
+      <workItem from="1726066736046" duration="112263000" />
+      <workItem from="1726824270414" duration="3652000" />
+      <workItem from="1727121422629" duration="626000" />
+      <workItem from="1727279067365" duration="1434000" />
+      <workItem from="1727762524992" duration="792000" />
+      <workItem from="1727769907533" duration="4562000" />
+      <workItem from="1727960362607" duration="18739000" />
     </task>
     <servers />
   </component>
@@ -118,28 +120,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="735" y="401" key="#ESLint" timestamp="1726076039453">
       <screen x="0" y="25" width="1792" height="1010" />
     </state>
     <state x="735" y="401" key="#ESLint/0.25.1792.1010@0.25.1792.1010" timestamp="1726076039453" />
-    <state width="1740" height="256" key="GridCell.Tab.0.bottom" timestamp="1726087609850">
+    <state width="1740" height="256" key="GridCell.Tab.0.bottom" timestamp="1727991510344">
       <screen x="0" y="25" width="1792" height="1010" />
     </state>
-    <state width="1740" height="256" key="GridCell.Tab.0.bottom/0.25.1792.1010@0.25.1792.1010" timestamp="1726087609850" />
-    <state width="1740" height="256" key="GridCell.Tab.0.center" timestamp="1726087609849">
+    <state width="1740" height="256" key="GridCell.Tab.0.bottom/0.25.1792.1010@0.25.1792.1010" timestamp="1727991510344" />
+    <state width="1740" height="256" key="GridCell.Tab.0.center" timestamp="1727991510343">
       <screen x="0" y="25" width="1792" height="1010" />
     </state>
-    <state width="1740" height="256" key="GridCell.Tab.0.center/0.25.1792.1010@0.25.1792.1010" timestamp="1726087609849" />
-    <state width="1740" height="256" key="GridCell.Tab.0.left" timestamp="1726087609848">
+    <state width="1740" height="256" key="GridCell.Tab.0.center/0.25.1792.1010@0.25.1792.1010" timestamp="1727991510343" />
+    <state width="1740" height="256" key="GridCell.Tab.0.left" timestamp="1727991510341">
       <screen x="0" y="25" width="1792" height="1010" />
     </state>
-    <state width="1740" height="256" key="GridCell.Tab.0.left/0.25.1792.1010@0.25.1792.1010" timestamp="1726087609848" />
-    <state width="1740" height="256" key="GridCell.Tab.0.right" timestamp="1726087609849">
+    <state width="1740" height="256" key="GridCell.Tab.0.left/0.25.1792.1010@0.25.1792.1010" timestamp="1727991510341" />
+    <state width="1740" height="256" key="GridCell.Tab.0.right" timestamp="1727991510343">
       <screen x="0" y="25" width="1792" height="1010" />
     </state>
-    <state width="1740" height="256" key="GridCell.Tab.0.right/0.25.1792.1010@0.25.1792.1010" timestamp="1726087609849" />
+    <state width="1740" height="256" key="GridCell.Tab.0.right/0.25.1792.1010@0.25.1792.1010" timestamp="1727991510343" />
     <state x="537" y="202" width="718" height="656" key="find.popup" timestamp="1726348565695">
       <screen x="0" y="25" width="1792" height="1010" />
     </state>

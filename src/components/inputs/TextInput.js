@@ -3,7 +3,6 @@ import {useSelector} from "react-redux";
 
 const TextInput = ({name, label, placeholder, action}) => {
 
-
   const {filters} = useSelector(state => state.data)
 
   const [width, setWidth] = useState(0);
@@ -12,11 +11,7 @@ const TextInput = ({name, label, placeholder, action}) => {
   const span = useRef();
 
   useEffect(() => {
-    filters.filter(el => {
-      if(Object.keys(el)[0] === name) {
-        setValue(el[name])
-      }
-    })
+    setValue(filters[name])
   }, [filters]);
 
   useEffect(() => {

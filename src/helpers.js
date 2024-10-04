@@ -24,7 +24,6 @@ export const convertJSONToCSVHandler = (jsonData, columnHeaders, russianHeaders)
     getSum(jsonData, 'goods_on_the_way'),
     getSum(jsonData, 'total_goods')
   ].join(',')
-  console.log(headers + rows + total_row)
   return headers + rows + total_row
 }
 

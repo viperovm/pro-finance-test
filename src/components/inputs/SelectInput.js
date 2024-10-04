@@ -11,11 +11,7 @@ const SelectInput = ({name, label, action, options=[]}) => {
   const [opened, setOpened] = useState(false)
 
   useEffect(() => {
-    filters.filter(el => {
-      if(Object.keys(el)[0] === name) {
-        setValue(el[name])
-      }
-    })
+    setValue(filters[name])
   }, [filters])
 
   const selectCardRef = useRef()
